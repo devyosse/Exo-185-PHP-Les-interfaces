@@ -4,7 +4,7 @@ require 'classes/user.php';
 
 $user = new user();
 
-echo user::MAX_INSTANCES;
+echo UserInterface::MAX_INSTANCES;
 
 
 
